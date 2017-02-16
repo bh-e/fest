@@ -1,0 +1,510 @@
+
+
+.adminheader {
+    background-color: #0072B1;
+}
+
+.adminleftmenu
+{
+	background-color: #0072B1 !important;
+}
+
+
+
+/*=============================For Dash Board=====================================*/
+
+/*@tile-blue:                  #2E8BCC;
+@tile-blueDark:              darken(@tile-blue, 15%);
+@tile-green:                 #339933;
+@tile-red:                   #E51400;
+@tile-yellow:                #ffc40d;
+@tile-orange:                #F09609;
+@tile-pink:                  #E671B8;
+@tile-purple:                #7B4F9D;
+@tile-lime:                  #8CBF26;
+@tile-magenta:               #FF0097;
+@tile-teal:                  #00ABA9;
+@tile-gray:                  #555;
+@tile-grayLight:             #999;
+@tile-greenDark:             #008641;
+
+
+
+	&.tile-orange {
+        background-color: @tile-orange !important;
+    }
+	    &.tile-blue {
+        background-color: @tile-blue !important;
+    }
+	 &.tile-green {
+        background-color:#339933!important;
+    }
+	 &.tile-orange {
+        background-color: @tile-orange !important;
+    }
+	 &.tile-orange {
+        background-color: @tile-orange !important;
+    }
+	
+	
+	.tile-icon-holder {
+        text-align: center;
+        height: 100%;
+        width:100%;
+        vertical-align:middle;
+        padding:22%;
+        font-size:40px;
+    }
+ .text-holder {
+        position:absolute;
+        bottom:0;
+        text-align: justify;
+        text-overflow: ellipsis;
+        padding: 10px;
+        width:100%;
+        height: 25%;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+	
+	
+	
+	.tile-row {
+    margin-top: 20px;
+    height: 400px;
+}
+
+@max-tile-width:350px;
+
+
+.tile {
+    /*position: relative;*/
+  /*  display: block;
+    float: left;
+    margin: 5px;
+    height: 100%;
+    color: #FFF;
+    cursor: pointer;
+    overflow: hidden;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-clip: padding-box;
+}
+
+    &.tile-col-12 {
+        width: @max-tile-width;
+    }
+
+    &.tile-col-9 {
+        width: @max-tile-width*(9/12);
+    }
+&.tile-col-6 {
+        width: @max-tile-width*(6/12);
+}
+
+
+&.tile-col-3 {
+        width: @max-tile-width*(3/12);
+}*/
+
+
+
+
+$color_purple: #5133AB;
+$color_red: #AC193D;
+$color_orange: #DC572E;
+$color_green: #00A600;
+$color_blue: #2672EC;
+$color_skyblue: #00ccff;
+
+
+$base_font_size: 14px;
+$base_line_height: 1.5em;
+$text_font_family: 'Open Sans', "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+$display_font_family: 'Open Sans', "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+
+body {
+	font-family: $text_font_family;
+	font-size: $base_font_size;
+	line-height: $base_line_height;
+	font-weight: 400;
+}
+
+p, span, a, ul, li, button {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+}
+
+strong {
+	font-weight: 600;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $display_font_family;
+	line-height: $base_line_height;
+	font-weight: 300;	
+}
+
+strong {
+  font-weight: 400;
+}
+
+.tile {  
+  width: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+	background: #fff;		
+	padding: 20px;
+	margin-bottom: 30px;
+  
+ 
+		margin-top: 0px;
+	}
+  .tile a {
+	 color:#FFF;
+  }
+  .tile a:hover {
+	 color:#faB205;
+	 text-decoration:none;
+  }
+  .purple, .blue, .red, .orange, .green, .skyblue {
+    color: #fff;
+  }
+  
+  .purple {
+    background-color:#5133AB;
+	}
+
+		
+  
+  .red {
+    background:#AC193D;
+
+		
+  }
+  
+			
+		
+  .green {
+    background:#00A600;
+
+				
+  }
+ 
+  .blue {
+    background:#2672EC;
+
+			
+  }
+  .skyblue {
+    background:#00ccff ;
+
+			
+  }
+ 
+  
+ .orange {
+    background:#DC572E;
+
+		
+  }
+
+/*=============================For Dash Board=====================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: #f8f8f8;
+}
+
+#page-container {
+  background: #e6e7e8;
+  overflow: hidden;
+
+}
+
+.container
+{
+width:100% !important;
+
+}
+
+#page-content {
+  min-height: 800px;
+  background: #f7f8fa;
+  box-shadow: -1px 0 0 0 rgba(0, 0, 0, 0.1);
+  margin-top: 31px !important;
+  
+}
+#page-leftbar {
+  float: left;
+  background: #e6e7e8;
+  white-space: nowrap;
+  position: relative;
+  background-color: #E6E7E8 !important;
+  min-height: 800px !important;
+  min-width: 250px !important;
+
+  box-shadow: inset -1px 0 0 0 rgba(0, 0, 0, 0.1);
+}
+#wrap1{
+
+  overflow: hidden;
+}
+#wrap1 > .container {
+  padding: 0px;
+}
+
+.headtxt
+{
+color:#fff;
+font-size:25px;
+}
+.ftrtxt
+{
+text-align: center;
+}
+.ftr
+{
+min-height:100px !important;
+max-height:150px !important;
+}
+.hdr
+{
+	min-height:80px !important;
+	max-height:150px !important;
+}
+.rptfrm
+{
+margin-top:10px;
+ margin-top:100px;
+ 
+}
+
+.lg
+{
+margin-bottom:10px;
+margin-top:15px !important;
+}
+.lgmid
+{
+	border: 2px solid;
+    border-radius: 10px;
+	min-height:150px !important;
+	width:400px !important;
+	margin-top:125px !important;
+	margin-bottom:10px !important;
+}
+.log_img
+{
+width:150px;
+height:50px;
+ position: fixed;
+    top: 150px;
+    left:550px;
+}
+#loginbg
+{
+
+background: #b5bdc8; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #b5bdc8 0%, #828c95 36%, #28343b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#b5bdc8), color-stop(36%,#828c95), color-stop(100%,#28343b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg, #b5bdc8 0%,#828c95 36%,#28343b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg, #b5bdc8 0%,#828c95 36%,#28343b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg, #b5bdc8 0%,#828c95 36%,#28343b 100%); /* IE10+ */
+background: linear-gradient(135deg, #b5bdc8 0%,#828c95 36%,#28343b 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+height: 100%;
+background-attachment:fixed;    
+}
+.textbox
+{
+background: #b5bdc8;
+color:#fff !important;
+font-size:14px;
+}
+.error
+{
+color:#FF002A !important;
+}
+.logout
+{
+	color: #fff;
+	float:right !important;
+	padding-right: 10px;
+}
+.visitors
+{
+	margin-top: 40px;
+	margin-left:10px;
+	margin-right:100px;
+}
+.dailyvisit
+{
+	display:block;
+	background:#ED9619;
+	
+	width:190px !important;
+	min-height: 150px;
+	float:left;
+	margin-left:30px;
+	border:1px solid ;
+	border-radius: 10px;
+}
+
+.divhead
+{
+	color:#fff;
+	font-size: 16px;
+	font-weight: bold;
+	text-align:center;
+	margin-top: 5px;
+}
+.visitnum
+{
+	color:#fff;
+	font-size: 60px;
+	font-weight: bold;
+	text-align:center;
+}
+.divmidd
+{
+	margin-top: 40px;
+	margin-left:260px;
+	margin-right:325px;
+	background-color: #790000;
+	border:1px solid ;
+	border-radius: 10px;
+	color:#fff;
+	min-height: 100px;
+}
+.visit_foot
+{
+	transition: all 0.05s ease-in 0s;
+}
+.divdata
+{
+	font-size: 15px;
+	font-weight: bold;
+	text-align:center;
+	margin-top: 5px;
+}
+.btnadmin
+{
+	background-color: #FAB205 !important;
+}
+.tab_content_left
+{
+	background-color:#e6f1f7; 
+	margin-top:10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.60)!important;
+}
+
+.tab_content_left h4
+{
+	font-weight:bold;
+}
+
+.circleprofile
+{
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius:50%;
+	width:120px;
+	height:120px;
+	margin:0 auto;
+	background-color:#e3e3e3;
+	
+	padding-top: 40px;
+	text-align: center;
+	font-size: 30px;
+	font-weight:bold;
+	
+	
+}
+.profilename
+{
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+}
+.empprofileimg
+{
+	width:150px;
+	height:120px;
+	margin:0 auto;
+	
+	overflow:hidden;
+	margin-top:10px;
+}
+
+
+.empprofileimg img
+{
+	width:150px;
+	
+	height:120px;
+	border:7px solid #0072b1;
+	
+}
+.sociallinkingt
+{
+	border-top: solid 1px #0c729d;
+	
+
+}
+.sociallinkingt h3 {
+	color: #0072b1;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+.sociallinkingtb
+{
+	border-top: solid 1px #0c729d;
+	border-bottom: solid 1px #3ac5ff;
+
+}
+.sociallinkingtb h3 {
+	color: #0072b1;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.sociallinkingb
+{
+	
+	border-bottom: solid 1px #3ac5ff;
+
+}
+.sociallinkingb h3 {
+	color: #0072b1;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+.sociallinkbox
+{
+	margin-top:15px;
+}
+.socialimg
+{
+	margin:40px 0px 40px 0px;
+}
+.socialimg img
+{
+	height:130px; 
+	width:130px;
+	margin:0 auto;
+}
+

@@ -1,0 +1,213 @@
+
+
+body {
+    background-color: #f8f8f8;
+}
+
+#page-container {
+  background: #e6e7e8;
+  overflow: hidden;
+  margin-top:70px;
+}
+
+.container
+{
+width:1000px !important;
+margin-top:80px;
+}
+
+#page-content {
+  min-height: 800px;
+  background: #f7f8fa;
+  box-shadow: -1px 0 0 0 rgba(0, 0, 0, 0.1);
+  margin-top: 31px !important;
+  
+}
+#page-leftbar {
+  float: left;
+  background: #e6e7e8;
+  white-space: nowrap;
+  position: relative;
+  background-color: #E6E7E8 !important;
+  min-height: 800px !important;
+  min-width: 250px !important;
+
+  box-shadow: inset -1px 0 0 0 rgba(0, 0, 0, 0.1);
+}
+#wrap1{
+
+  overflow: hidden;
+}
+#wrap1 > .container {
+  padding: 0px;
+}
+
+.headtxt
+{
+color:#fff;
+font-size:25px;
+}
+.ftrtxt
+{
+text-align: center;
+}
+.ftr
+{
+min-height:100px !important;
+max-height:150px !important;
+}
+.hdr
+{
+	min-height:100px !important;
+	max-height:150px !important;
+}
+.rptfrm
+{
+margin-top:10px;
+ margin-top:100px;
+ 
+}
+
+.lg
+{
+margin-bottom:10px;
+margin-top:15px !important;
+}
+.lgmid
+{
+	
+	min-height:150px !important;
+	width:400px !important;
+	
+	margin-bottom:10px !important;
+}
+.log_img
+{
+width:240px;
+height:70px;
+margin:50px 0px 20px 0px ;
+
+    
+}
+#loginbg
+{
+
+background: #b5bdc8; /* Old browsers */
+background-image:url(../../assets/images/INCEPTRA-2k16-QUIZ1.jpg) !important;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;    
+}
+
+
+.loginpage
+{
+	background-color:#FFF;
+}
+.logindiv
+{
+	width:50%;
+	margin:0 auto;
+	margin-top:100px;
+}
+/*#loginbox
+{
+	border-radius:50%;
+	border:5px solid rgba(0, 114, 177,.9);
+	width:400px;
+	height:400px;
+	margin:0 auto;
+	background-color:rgba(0, 0, 0,.7);*/
+}
+.loginbtn
+{
+	border-radius:50%;
+	width:150px;
+	height:50px;
+}
+.loginform
+{
+	margin-top:110px;
+}
+.textbox
+{
+
+font-size:16px;
+border-radius:5px;
+	border:1px solid rgba(0, 114, 177,.8);
+	max-width:350px;
+	text-align:center;
+}
+.error
+{
+color:#FF002A !important;
+font-size:16px;
+}
+
+.logout
+{
+	color: #fff;
+	float:right !important;
+	padding-right: 10px;
+}
+.visitors
+{
+	margin-top: 40px;
+	margin-left:10px;
+	margin-right:100px;
+}
+.dailyvisit
+{
+	display:block;
+	background:#ED9619;
+	
+	width:190px !important;
+	min-height: 150px;
+	float:left;
+	margin-left:30px;
+	border:1px solid ;
+	border-radius: 10px;
+}
+
+.divhead
+{
+	color:#fff;
+	font-size: 16px;
+	font-weight: bold;
+	text-align:center;
+	margin-top: 5px;
+}
+.visitnum
+{
+	color:#fff;
+	font-size: 60px;
+	font-weight: bold;
+	text-align:center;
+}
+.divmidd
+{
+	margin-top: 40px;
+	margin-left:260px;
+	margin-right:325px;
+	background-color: #790000;
+	border:1px solid ;
+	border-radius: 10px;
+	color:#fff;
+	min-height: 100px;
+}
+.visit_foot
+{
+	transition: all 0.05s ease-in 0s;
+}
+.divdata
+{
+	font-size: 15px;
+	font-weight: bold;
+	text-align:center;
+	margin-top: 5px;
+}
+.btnadmin
+{
+	background-color: #FAB205 !important;
+}

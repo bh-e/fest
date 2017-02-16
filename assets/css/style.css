@@ -1,0 +1,501 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'armata';
+    src: url('../fonts/armata-regular-webfont.eot');
+    src: url('../fonts/armata-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/armata-regular-webfont.woff2') format('woff2'),
+         url('../fonts/armata-regular-webfont.woff') format('woff'),
+         url('../fonts/armata-regular-webfont.ttf') format('truetype'),
+         url('../fonts/armata-regular-webfont.svg#armataregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('..fonts/robotocondensed-regular-webfont.eot');
+    src: url('..fonts/robotocondensed-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('..fonts/robotocondensed-regular-webfont.woff2') format('woff2'),
+         url('..fonts/robotocondensed-regular-webfont.woff') format('woff'),
+         url('..fonts/robotocondensed-regular-webfont.ttf') format('truetype'),
+         url('..fonts/robotocondensed-regular-webfont.svg#roboto_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* Reset & Basics (Inspired by E. Meyers) */
+html, body, div, applet, object, iframe p, blockquote, a, abbr, acronym, address, big, cite, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: "Armata","Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+	vertical-align: baseline; 
+}
+
+input, button, select, textarea {
+	font-family: "Armata","Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+}
+
+p {
+	width: 100%;
+	line-height: 18px;
+}
+
+i, cite, em, var, address, dfn {
+	font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	letter-spacing: 0.1em;
+	vertical-align: baseline;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal; 
+	font-weight: 300;
+	margin: 20px 0;
+}
+.log_img
+{
+width:240px;
+height:70px;
+margin:50px 0px 20px 0px ;
+
+    
+}
+#loginbg
+{
+
+background: #b5bdc8; /* Old browsers */
+background-image:url(../../assets/images/INCEPTRA-2k16-QUIZ1.jpg) !important;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;    
+}
+
+
+.loginpage
+{
+	background-color:#FFF;
+}
+.logindiv
+{
+	width:50%;
+	margin:0 auto;
+	margin-top:150px;
+}
+#loginbox
+{
+	/*border-radius:50%;
+	border:5px solid rgba(0, 114, 177,.9);
+	width:400px;
+	height:400px;
+	margin:0 auto;
+	background-color:rgba(0, 0, 0,.7);*/
+}
+.loginbtn
+{
+	border-radius:50%;
+	width:150px;
+	height:50px;
+}
+.loginform
+{
+	margin-top:110px;
+}
+.textbox
+{
+
+font-size:16px;
+border-radius:5px;
+	border:1px solid rgba(0, 114, 177,.8);
+	max-width:350px;
+	text-align:center;
+}
+.error
+{
+color:#FF002A !important;
+font-size:16px;
+}
+
+#commonbg
+{
+
+background: #b5bdc8; /* Old browsers */
+background-image:url(../../assets/images/INCEPTRA-2k16-QUIZ1.jpg) !important;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;    
+}
+.profile_cont
+{
+	background-color:rgba(45, 48, 55,.9);
+	color:#FFF;
+}
+.borderrowf
+{
+	
+    border-bottom: solid 2px #101215;
+}
+.borderrows
+{
+    border-top: solid 2px #6e7179;	
+}
+.maincontainorstartr1
+{
+	background-color:rgba(45, 48, 55,.9);
+	box-shadow: 0 0 10px #000;
+	margin-top:20px;
+	padding:15px;
+}
+.circlehaderr1
+{
+	width:250px;
+	height:250px;
+	background-color:#FFF;
+	background-image:url(../../assets/images/multichoice1.jpg) !important;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin:0 auto;
+	border-radius:50%;
+	padding:80px 0px;
+	text-align:center;
+	box-shadow: 0 0 10px #fff;
+}
+.circlehaderr1 h2
+{
+	
+	color:#fff !important;
+	font-weight:bold !important;
+	text-shadow: 2px 2px 4px #000;
+	font-size:32px !important;
+}
+
+.btnstartnowr1
+{
+	width:100%;
+	margin-top:15px;
+}
+.maincontainorstartr2
+{
+	background-color:rgba(45, 48, 55,.9);
+	box-shadow: 0 0 10px #000;
+	margin-top:20px;
+	padding:15px;
+}
+.circlehaderr2
+{
+	width:250px;
+	height:250px;
+	background-color:#FFF;
+	background-image:url(../../assets/images/pickup.jpg) !important;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin:0 auto;
+	border-radius:50%;
+	padding:80px 0px;
+	text-align:center;
+	box-shadow: 0 0 10px #fff;
+}
+.circlehaderr2 h2
+{
+	
+	color:#fff !important;
+	font-weight:bold !important;
+	text-shadow: 2px 2px 4px #000;
+	font-size:32px !important;
+}
+
+.btnstartnowr2
+{
+	width:100%;
+	margin-top:15px;
+}.maincontainorstartr3
+{
+	background-color:rgba(45, 48, 55,.9);
+	box-shadow: 0 0 10px #000;
+	margin-top:20px;
+	padding:15px;
+}
+.circlehaderr3
+{
+	width:250px;
+	height:250px;
+	background-color:#FFF;
+	background-image:url(../../assets/images/matchcatch.jpg) !important;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin:0 auto;
+	border-radius:50%;
+	padding:80px 0px;
+	text-align:center;
+	box-shadow: 0 0 10px #fff;
+}
+.circlehaderr3 h2
+{
+	
+	color:#fff !important;
+	font-weight:bold !important;
+	text-shadow: 2px 2px 4px #000;
+	font-size:32px !important;
+}
+
+.btnstartnowr3
+{
+	width:100%;
+	margin-top:15px;
+}
+.tab_content_left
+{
+	background-color:#eee;
+	color:#000;
+	margin-bottom:15px;
+	box-shadow: 0 0 10px #fff;
+}
+.questionno
+{
+	width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #555;
+    color: #FFF;
+    text-align: center;
+    font-size: 23px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.question
+{
+	padding-left:10px;
+	margin-top:10px;
+	width:90%;
+}
+
+
+.maincontainorstartpr1
+{
+	background-color:rgba(45, 48, 55,.9);
+	box-shadow: 0 0 10px #000;
+	margin-top:20px;
+	padding:15px;
+}
+.circlehaderpr1
+{
+	width:172px;
+	height:172px;
+	background-color:#4285f4;
+	/*background-image:url(../../assets/images/world.jpg) !important;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;*/
+	margin:0 auto;
+	border-radius:50%;
+	padding:45px 0px;
+	text-align:center;
+	box-shadow: 0 0 10px #fff;
+}
+.circlehaderpr1 h2
+{
+	
+	color:#fff !important;
+	font-weight:bold !important;
+	text-shadow: 2px 2px 4px #000;
+	font-size:32px !important;
+}
+
+.btnstartnowpr1
+{
+	width:100%;
+	margin-top:15px;
+}
+.maincontainorstartpr2
+{
+	background-color:rgba(45, 48, 55,.9);
+	box-shadow: 0 0 10px #000;
+	margin-top:20px;
+	padding:15px;
+}
+.circlehaderpr2
+{
+	width:172px;
+	height:172px;
+	background-color:#34a853;
+	/*background-image:url(../../assets/images/it.jpg) !important;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;*/
+	margin:0 auto;
+	border-radius:50%;
+	padding:45px 0px;
+	text-align:center;
+	box-shadow: 0 0 10px #fff;
+}
+.circlehaderpr2 h2
+{
+	
+	color:#fff !important;
+	font-weight:bold !important;
+	text-shadow: 2px 2px 4px #000;
+	font-size:32px !important;
+}
+
+.btnstartnowpr2
+{
+	width:100%;
+	margin-top:15px;
+}
+.maincontainorstartpr3
+{
+	background-color:rgba(45, 48, 55,.9);
+	box-shadow: 0 0 10px #000;
+	margin-top:20px;
+	padding:15px;
+}
+.circlehaderpr3
+{
+	width:172px;
+	height:172px;
+	background-color:#fbbc05;
+	/*background-image:url(../../assets/images/science.jpg) !important;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;*/
+	margin:0 auto;
+	border-radius:50%;
+	padding:45px 0px;
+	text-align:center;
+	box-shadow: 0 0 10px #fff;
+}
+.circlehaderpr3 h2
+{
+	
+	color:#fff !important;
+	font-weight:bold !important;
+	text-shadow: 2px 2px 4px #000;
+	font-size:32px !important;
+}
+
+.btnstartnowpr3
+{
+	width:100%;
+	margin-top:15px;
+}
+.maincontainorstartpr4
+{
+	background-color:rgba(45, 48, 55,.9);
+	box-shadow: 0 0 10px #000;
+	margin-top:20px;
+	padding:15px;
+}
+.circlehaderpr4
+{
+	width:172px;
+	height:172px;
+	background-color:#ea4335;
+	/*background-image:url(../../assets/images/entertainment.jpg) !important;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;*/
+	margin:0 auto;
+	border-radius:50%;
+	padding:45px 0px;
+	text-align:center;
+	box-shadow: 0 0 10px #fff;
+}
+.circlehaderpr4 h2
+{
+	
+	color:#fff !important;
+	font-weight:bold !important;
+	text-shadow: 2px 2px 4px #000;
+	font-size:32px !important;
+}
+
+.btnstartnowpr4
+{
+	width:100%;
+	margin-top:15px;
+}
+.imagechoice
+{
+	cursor:pointer;
+}
+.imagechoice:hover
+{
+	border:solid 15px #2e6da4;
+	opacity:.6;
+}
+.imagechoiced
+{
+	border:solid 15px #2e6da4;
+	opacity:.6;
+}
+.icontrue
+{
+	color:#01579B;
+	font-size:50px;
+	top:45%;
+    left:45%;
+	position:absolute;
+	z-index:2;
+	display:none;
+}
+.logout_img
+{
+width:240px;
+height:70px;
+margin:50px 0px 20px 0px ;
+
+    
+}
+#logoutbg
+{
+
+background: #b5bdc8; /* Old browsers */
+background-image:url(../../assets/images/INCEPTRA-2k16-QUIZ1.jpg) !important;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;    
+}
+
+
+.logoutpage
+{
+	background-color:#FFF;
+}
+.logoutdiv
+{
+	width:50%;
+	margin:0 auto;
+	margin-top:250px;
+}
+#logoutbox
+{
+	
+	border:5px solid rgba(0, 114, 177,.9);
+	width: 659px;
+    height: 184px;
+	margin:0 auto;
+	background-color:rgba(0, 0, 0,.7);
+}
+.logoutbtn
+{
+	border-radius:50%;
+	width:150px;
+	height:50px;
+}
+.logoutform
+{
+	margin-top:110px;
+}

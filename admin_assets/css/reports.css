@@ -1,0 +1,32 @@
+.rpt{
+	margin-left: 100px;
+	margin-top:100px;
+	margin-right:100px;
+}
+.rptrow
+{
+margin-top: 10px !important;
+}
+.txtbx {
+	
+	background-repeat:repeat-x;
+	border:1px solid #d1c7ac;
+	width: 150px;
+	color:#333333;
+	padding:3px;
+	margin-right:4px;
+	margin-bottom:8px;
+	font-family:tahoma, arial, sans-serif;
+}
+.drop{
+	width: auto !important;
+}
+.rptview{
+	margin-left: 50px;
+	margin-top:100px;
+	margin-right:10px;
+}
+.rpthead
+{
+	background: url('adminassets/images/wbg.gif');
+}
