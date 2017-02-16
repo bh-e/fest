@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'brainshark.ml',
-	'username' => 'nmo@brainshark.ml',
-	'password' => 'passwd',
+	'hostname' => '',
+	'username' => '',
+	'password' => '',
 	'database' => 'inceptra_db',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
